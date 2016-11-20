@@ -1,0 +1,29 @@
+{ "photos": [{
+  "id": 1,
+  "title": "Veruca Salt",
+  "location": "San Francisco",
+  "model": "Tina",
+  "camera": "Nikon",
+  "settings": "SPF 60",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Pollock-Krasner_House_studio_floor_2.jpg"
+},
+{
+  "id": 2,
+  "title": "Mike TV",
+  "location": "Portland",
+  "model": "Tony",
+  "camera": "Nikon",
+  "settings": "SPF 25",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Pollock-Krasner_House_studio_floor_2.jpg"
+},
+{
+  "id": 1,
+  "title": "Augustus Gloop",
+  "location": "Seattle",
+  "model": "Estelle",
+  "camera": "Nikon",
+  "settings": "SPF 1000",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Pollock-Krasner_House_studio_floor_2.jpg"
+} ]
+
+}

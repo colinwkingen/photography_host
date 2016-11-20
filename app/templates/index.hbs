@@ -1,0 +1,12 @@
+{{#link-to 'work'}}Work{{/link-to}}
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Contact{{/link-to}}
+
+{{outlet}}
+
+
+<ul>
+  {{#each model as |photo|}}
+     {{photo-tile photo=photo destroyPhoto="destroyPhoto"}}
+  {{/each}}
+</ul>

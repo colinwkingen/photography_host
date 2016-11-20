@@ -1,0 +1,10 @@
+<li>
+  Title: {{photo.title}} Location: {{photo.location}} Model: {{photo.model}}
+  {{#if isPhotoShowing }}
+    <p><img src={{photo.image}} alt={{photo.title}} {{action 'photoHide'}}></p>
+  {{else}}
+    <button {{action 'photoShow'}}>Image</button>
+  {{/if}}
+  <button {{action 'delete' photo}}>Delete Photo</button>
+
+</li>
